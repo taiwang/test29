@@ -3,7 +3,7 @@
 	padding: 0px;
 }
 body{
-	background-color: #441e09;
+	background-color: #FFFFFF;
 	background-repeat:no-repeat;
 /*
 	background:url(../img/star.png) center 20px no-repeat, url(../img/stage_bg.png);
@@ -104,7 +104,7 @@ article#box{
 	-moz-transform: translate3d(0px, 0px, 37px);
 	-o-transform: translate3d(0px, 0px, 37px);
 	transform: translate3d(0px, 0px, 37px);
-	
+	background-color:#7e1600;
 }
 
 #top{
@@ -158,7 +158,7 @@ article#box{
 	-moz-transform: rotateY(90deg) translate3d(0px, 0px, 213px);
 	-o-transform: rotateY(90deg) translate3d(0px, 0px, 213px);
 	-transform: rotateY(90deg) translate3d(0px, 0px, 213px);
-	background-color: #7e1600;
+	background-color: #ffc125;
 	background-image:none;
 }
 

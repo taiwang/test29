@@ -1,0 +1,56 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width">
+
+<title>{eleqtriq} Natural Object Rotation with CSS3 3D</title>
+		<link rel='stylesheet' type='text/css' href='css/box.css'>
+		<!--[if lte IE 8]><script type="text/javascript" src="http://www.eleqtriq.com/wp-content/themes/eleqtriq/js/html5.js"></script><![endif]-->
+        
+		<script type="text/javascript" src="js/modernizr.custom.css3d.js"></script>
+		<script type="text/javascript">
+		
+		Modernizr.load({
+		  test: Modernizr.csstransforms3d,
+		  yep: {
+		    'traqball': 'js/traqball.js'
+		  },
+		  
+		  nope: 'js/traqball_alternative.js',
+		  
+		  callback: {
+		    'traqball': function (url, result, key) {
+		      var 	traqball_1 = new Traqball({stage: "stage", axis: [-0.57,0.777,-0.287], angle: 1});
+		    		}
+		  		}
+		  
+			});
+				
+		</script>
+	</head>
+
+<body id="body">
+<section id="stage">
+	<article id="box">
+		<section id="front">
+			
+            <img src="img/IMG_0002.jpg" alt="spritebaker logo" title="spritebaker" width="138" height="112"/>
+    		
+   		</section>
+	  <section id="top">box-top</section>
+	  <section id="bottom">box-bottom</section>
+		<section id="back">
+			
+            <img src="img/applekids.PNG" alt="spritebaker logo" title="spritebaker" width="138" height="112"/>
+    		
+    	</section>
+		<section id="left">
+       	 
+		</section>
+		<section id="right">
+       	 
+		</section>
+	</article>
+</section>
+</body>
+</html>
